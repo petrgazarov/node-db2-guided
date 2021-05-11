@@ -1,6 +1,6 @@
 const commonConfig = {
   client: 'sqlite3',
-  useNullAsDefault: null,
+  useNullAsDefault: true,
   migrations: {
     directory: './data/migrations'
   },
