@@ -12,9 +12,15 @@ const commonConfig = {
 module.exports = {
   // configs for different dbs
   development: {
+    connection: {
+      filename: './data/produce.db3'
+    },
     ...commonConfig
   },
   production: {
+    connection: {
+      filename: './data/prod-produce.db3'
+    },
     ...commonConfig
   }
 }
