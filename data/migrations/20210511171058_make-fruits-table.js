@@ -3,7 +3,7 @@ exports.up = function (knex) {
     .createTable('fruits', table => {
       // primary key fruit_id integers, auto incrementing...
       table.increments('fruit_id')
-      table.text('fruit_name', 128)
+      table.text('fruit_name', 255).unique()
 
 
     })
