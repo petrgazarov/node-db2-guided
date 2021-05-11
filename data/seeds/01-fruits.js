@@ -1,6 +1,6 @@
 exports.seed = function (knex) {
-  // Deletes ALL existing entries
-  return knex('table_name').del()
+  // Truncates table - wipes it, resets primary key to 1
+  return knex('table_name').truncate()
     .then(function () {
       // Inserts seed entries
       return knex('table_name').insert([
