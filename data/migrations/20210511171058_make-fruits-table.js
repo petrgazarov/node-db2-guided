@@ -6,6 +6,7 @@ exports.up = function (knex) {
       table.text('fruit_name', 255).unique().notNullable()
       table.decimal('fruit_avg_weight').notNullable()
       table.boolean('is_delicious')
+      table.text('color', 125)
     })
 };
 
