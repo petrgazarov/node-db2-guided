@@ -1,3 +1,4 @@
 const knex = require('knex')
 
-const configurations = re
+const configurations = require('../knexfile')
+
