@@ -5,7 +5,7 @@ const commonConfig = {
     directory: './data/migrations'
   },
   seeds: {
-    
+    directory: './data/seeds'
   },
 }
 
