@@ -1,5 +1,5 @@
-commonConfig = {
-
+const commonConfig = {
+  client: 'sqlite3'
 }
 
 module.exports = {
