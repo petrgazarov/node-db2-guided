@@ -4,7 +4,7 @@ exports.up = function (knex) {
       // primary key fruit_id integers, auto incrementing...
       table.increments('fruit_id')
       table.text('fruit_name', 255).unique().notNullable()
-
+      table
     })
 };
 
