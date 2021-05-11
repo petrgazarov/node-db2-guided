@@ -2,7 +2,9 @@ exports.up = function (knex) {
   return knex.schema
     .createTable('fruits', table => {
       // primary key fruit_id integers, auto incrementing...
-      table.increments('fruit_id') // id
+      table.increments('fruit_id')
+      table.text('fruit_name')
+
 
     })
 };
