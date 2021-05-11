@@ -1,5 +1,6 @@
 const commonConfig = {
-  client: 'sqlite3'
+  client: 'sqlite3',
+  useNullAsDefault: null,
 }
 
 module.exports = {
