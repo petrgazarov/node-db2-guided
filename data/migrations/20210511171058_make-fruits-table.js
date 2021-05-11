@@ -5,6 +5,7 @@ exports.up = function (knex) {
       table.increments('fruit_id')
       table.text('fruit_name', 255).unique().notNullable()
       table.decimal('fruit_avg_weight').notNullable()
+      table.
     })
 };
 
