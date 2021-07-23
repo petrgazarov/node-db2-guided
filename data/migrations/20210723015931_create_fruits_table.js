@@ -3,7 +3,7 @@ exports.up = function(knex) {
   return knex.schema.createTable('fruits', table => {
     table.increments();
 
-    table.string('name').unique().nonNullable();
+    table.string('name').unique().notNullable();
     table.decimal('avgWeightOz');
     table.boolean('delicious');
   });
