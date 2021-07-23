@@ -1,4 +1,6 @@
 exports.seed = function(knex) {
+  // ".truncate()" deletes all existing entries. It is similar to del(), but also
+  // resets the autoincrementing identifier field.
   return knex('fruits').truncate()
     .then(function () {
       return knex('fruits').insert([
