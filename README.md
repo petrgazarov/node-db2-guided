@@ -19,5 +19,5 @@ Please follow along as the instructor explores schema design with this API.
 
 ## Files with Notes:
 - ./knexfile.js
-- ./data/migrations/*_create-fruits-table.js
+- ./data/migrations/*_create-fruits.js
 - ./data/seeds/001_fruits.js
